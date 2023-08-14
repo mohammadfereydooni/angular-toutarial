@@ -3,18 +3,20 @@ import { CommonModule } from '@angular/common';
 
 import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementsHomeComponent } from './elements-home/elements-home.component';
+import { PalceHolderComponent } from './palce-holder/palce-holder.component';
 
 
 @NgModule({
   declarations: [
-    ElementsHomeComponent
+    ElementsHomeComponent,
+    PalceHolderComponent
   ],
   imports: [
     CommonModule,
     ElementsRoutingModule
   ],
   exports: [
-    ElementsHomeComponent
+    // ElementsHomeComponent
   ]
 })
 export class ElementsModule { }
